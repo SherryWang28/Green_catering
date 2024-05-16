@@ -1,0 +1,45 @@
+/* pages/me.wxss */
+
+page {
+ 
+  background-color: #f4c903F0; /* 使用八位十六进制颜色值，后两位表示透明度，取值范围为00~FF，数值越小越透明，00为完全透明，FF为不透明 */
+
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+  align-items: center;
+  background: #f4c903;
+  
+}
+.btn-login{
+ padding: 8%;
+ background: white;
+}
+
+.userinfo-avatar {
+  border-radius: 128rpx;
+  width: 128rpx;
+  height: 128rpx;
+    margin-block-start: 10px;
+
+}
+
+.userinfo-nickname {
+  margin-top: 20rpx;
+  font-size: 38rpx;
+}
+.runner_desc{
+ font-size: 10pt;
+ color: red
+}
+.dizhizi{
+color: white
+
+}
+.dizhi{
+  margin-top: 200px;
+}

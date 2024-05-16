@@ -1,0 +1,18 @@
+<view class="container">
+ <view class='line_1px' />
+ <view class='item_root'>
+  姓名(必填)：
+  <input class="textarea25px" bindinput="bindinputsusername" value="{{susername}}" maxlength='10' />
+ </view>
+ <view class='line_1px' />
+ <view class='item_root'>
+  电话(必填)：
+  <input class="textarea25px" bindinput="bindinputphone" value="{{phone}}" maxlength='11' />
+ </view>
+ <view class='line_1px' />
+ 
+ <view class='line_1px' />
+ 
+</view>
+<!-- 提交按钮 -->
+<button class='btn_fabu' bindtap='formSubmit' type='primary'>提交修改</button>

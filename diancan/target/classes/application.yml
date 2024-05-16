@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /diancan
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gc?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8
+   # url: jdbc:mysql://localhost/qcl?characterEncoding=utf-8&useSSL=false&serverTimeZone=UTC#
+    #&useOldAliasMetadataBehavior=true&allowPublicKeyRetrieval=true#
+    username: gc
+    password: 123456
+    hikari:
+      connection-init-sql: set names utf8mb4
+    tomcat:
+      init-s-q-l: SET NAMES utf8mb4 #这是最重要的一步
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    open-in-view=false:

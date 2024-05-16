@@ -1,0 +1,56 @@
+
+<view class='line_30px' />
+<!--  
+<view class='my_item' bindtap="change">
+		<text>蒸不错餐厅</text>
+		<view class='right_arrow' />
+	</view>-->
+    <view class='my_item' bindtap="change5">
+		<text>鲜味轩</text>
+		<view class='right_arrow' />
+	</view>
+    <view class='my_item' bindtap="change2">
+		<text>悦食府</text>
+		<view class='right_arrow' />
+	</view>
+    <view class='my_item' bindtap="change3">
+		<text>香满园</text>
+		<view class='right_arrow' />
+	</view>
+    <view class='my_item' bindtap="change4">
+		<text>家常味道</text>
+		<view class='right_arrow' />
+	</view>
+    <view class='my_item' bindtap="change1">
+		<text>蒸不错</text>
+		<view class='right_arrow' />
+	</view>
+    <view class='my_item' bindtap="change6">
+		<text>翠园餐厅</text>
+		<view class='right_arrow' />
+	</view>
+    <view class='my_item' bindtap="change7">
+		<text>食香居</text>
+		<view class='right_arrow' />
+	</view>
+    <view class='my_item' bindtap="change8">
+		<text>味聚阁</text>
+		<view class='right_arrow' />
+	</view>
+    <view class='my_item' bindtap="change9">
+		<text>乡情小馆</text>
+		<view class='right_arrow' />
+	</view>
+    <view class='my_item' bindtap="change10">
+		<text>饭香园</text>
+		<view class='right_arrow' />
+	</view>
+
+    <view class='my_item' bindtap="change11">
+		<text>烤味园</text>
+		<view class='right_arrow' />
+	</view>
+    <view class='my_item' bindtap="change12">
+		<text>聚福锅</text>
+		<view class='right_arrow' />
+	</view>

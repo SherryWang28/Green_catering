@@ -1,0 +1,59 @@
+<!--pages/me/me.wxml-->
+<view class="header" wx:if="{{isShowSUserName}}" bindtap='change1'>
+	<image class="userinfo-avatar" src="/image/meno.png"></image>
+    <text class="userinfo-nickname">{{suserInfo.realname?suserInfo.realname:suserInfo.nickName}}</text>
+	<!-- 
+       <text class="userinfo-nickname">{{suserInfo.realname?suserInfo.realname:suserInfo.nickName}}</text>
+        
+        <text class="userinfo-nickname">{{userInfo.openid}}</text> -->
+</view>
+<!--如果用户没有授权，显示登陆按钮  -->
+<view wx:if="{{!isShowSUserName}}" class="btn-login">
+	<!--<button open-type="getUserInfo" lang="zh_CN" type="primary" bindgetuserinfo="onGotUserInfo">授权登陆</button>-->
+	 <button type="primary" bindtap="getUserProfile">授权登录</button>
+</view>
+<view class='line_5px' />
+<view wx:if="{{isShowSUserName}}">
+<!-- 
+	<view class='my_item' bindtap="change">
+		<text>个人信息（原）</text>
+		<view class='right_arrow' />
+	</view>
+
+-->
+
+    <view class='my_item' bindtap="change1">
+		<text>个人信息</text>
+		<view class='right_arrow' />
+	</view>
+	<!-- 我的订单 -->
+	<view class='my_item' bindtap="goToMyOrder">
+		<text>我的订单</text>
+		<view class='right_arrow' />
+	</view>
+	<view class='my_item' bindtap="goToMyComment">
+		<text>我的评价</text>
+		<view class='right_arrow' />
+	</view>
+    <!-- 
+	<view class='my_item' bindtap="goToPaiHao">
+		<text>我的排号</text>
+		<view class='right_arrow' />
+	</view>
+    -->
+
+</view>
+<view class='my_item' bindtap="goToPhone">
+	<text>平台客服</text>
+	<view class='right_arrow' />
+</view>
+<view class='my_item' bindtap="aboutOut">
+	<text>关于我们</text>
+	<view class='right_arrow' />
+</view>
+<!-- 
+<view class='my_item' bindtap="change2">
+	<text>测试</text>
+	<view class='right_arrow' />
+</view>
+-->
