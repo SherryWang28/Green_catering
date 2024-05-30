@@ -17,7 +17,7 @@ create table `admin_info`
 ) comment '餐厅卖家信息表';
 
 INSERT INTO admin_info
-VALUES (1, '20王楠', '20240404430312', '123456', 2, now(), now());
+VALUES (1, '20张三', '20240404430312', '123456', 2, now(), now());
 
 
 
